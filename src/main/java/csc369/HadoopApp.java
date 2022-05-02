@@ -35,6 +35,18 @@ public class HadoopApp {
 	    job.setOutputValueClass(AverageTemperature.OUTPUT_VALUE_CLASS);
 	    FileInputFormat.addInputPath(job, new Path(otherArgs[1]));
 	    FileOutputFormat.setOutputPath(job, new Path(otherArgs[2]));
+	} else if ("TemperatureSort".equalsIgnoreCase(otherArgs[0])) {
+	    job.setReducerClass(TemperatureSort.ReducerImpl.class);
+	    job.setMapperClass(TemperatureSort.MapperImpl.class);
+            
+            job.setPartitionerClass(TemperatureSort.PartitionerImpl.class);
+            job.setGroupingComparatorClass(TemperatureSort.GroupingComparator.class);
+            job.setSortComparatorClass(TemperatureSort.SortComparator.class);
+            
+	    job.setOutputKeyClass(TemperatureSort.OUTPUT_KEY_CLASS);
+	    job.setOutputValueClass(TemperatureSort.OUTPUT_VALUE_CLASS);
+	    FileInputFormat.addInputPath(job, new Path(otherArgs[1]));
+	    FileOutputFormat.setOutputPath(job, new Path(otherArgs[2]));
 	} else {
 	    System.out.println("Unrecognized job: " + otherArgs[0]);
 	    System.exit(-1);
