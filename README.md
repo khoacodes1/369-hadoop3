@@ -1,4 +1,4 @@
-# 369-hadoop2
+# 369-hadoop3
 Hadoop Example 3 (combiner, partitioner)
 
 To run examples, execute the following command (required JAva SDK version 1.8+)
