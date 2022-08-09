@@ -21,3 +21,9 @@ application {
     // Define the main class for the application.
     mainClass = 'csc369.HadoopApp'
 }
+
+/*
+        tasks.withType( JavaCompile ).configureEach {
+            options.forkOptions.jvmArgs.addAll( ['--add-opens', 'jdk.compiler/com.sun.tools.javac.code=ALL-UNNAMED'] )
+        }
+*/
