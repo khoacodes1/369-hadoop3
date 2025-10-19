@@ -19,7 +19,7 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'csc369.HadoopApp'
+    mainClass = 'khoacodes.Driver'
 }
 
 /*

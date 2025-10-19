@@ -1,0 +1,327 @@
+$ ./gradlew run --args="Task1 data/access.log data/hostname_country.csv output_task1"
+
+Unknown Location	812
+Intranet	198
+Canada	127
+United States	87
+Robot	80
+Israel	19
+Australia	17
+France	16
+Wherever You Want to Ship	13
+Germany	13
+United Kingdom	6
+Korea	4
+Spain	4
+Denmark	4
+Netherlands	2
+Los Alamos	1
+Taiwan	1
+Finland	1
+Mexico	1
+
+$ ./gradlew run --args="Task2 data/access.log data/hostname_country.csv temp2 output2"
+Australia	/mailman/listinfo	2
+Australia	/twiki/bin/view/Main/SpamAssassinAndPostFix	2
+Australia	/twiki/bin/view/Main/SpamAssassinDeleting	2
+Australia	/icons/PythonPowered.png	1
+Australia	/icons/gnu-head-tiny.jpg	1
+Australia	/icons/mailman.jpg	1
+Australia	/mailman	1
+Australia	/mailman/admin	1
+Australia	/mailman/admin/webct	1
+Australia	/mailman/listinfo/administration	1
+Australia	/mailman/listinfo/cnc_notice	1
+Australia	/twiki/bin/view/Main/SpamAssassinTaggingOnly	1
+Australia	/twiki/bin/view/Main/WebHome	1
+Australia	/twiki/pub/TWiki/TWikiLogos/twikiRobot46x50.gif	1
+Canada	/mailman/admin/ppwc	9
+Canada	/mailman/listinfo/ppwc	9
+Canada	/mailman/listinfo	6
+Canada	/icons/PythonPowered.png	5
+Canada	/icons/gnu-head-tiny.jpg	5
+Canada	/icons/mailman.jpg	5
+Canada	/ie.htm	5
+Canada	/images/image004.jpg	5
+Canada	/images/image005.jpg	5
+Canada	/images/msgops.JPG	5
+Canada	/	4
+Canada	/mailman	3
+Canada	/mailman/admin/ppwc/members	3
+Canada	/mailman/admindb/ppwc	3
+Canada	/cgi-bin/mailgraph.cgi/mailgraph_0.png	2
+Canada	/cgi-bin/mailgraph.cgi/mailgraph_0_err.png	2
+Canada	/cgi-bin/mailgraph.cgi/mailgraph_1.png	2
+Canada	/cgi-bin/mailgraph.cgi/mailgraph_1_err.png	2
+Canada	/cgi-bin/mailgraph.cgi/mailgraph_2.png	2
+Canada	/cgi-bin/mailgraph.cgi/mailgraph_2_err.png	2
+Canada	/cgi-bin/mailgraph.cgi/mailgraph_3.png	2
+Canada	/cgi-bin/mailgraph.cgi/mailgraph_3_err.png	2
+Canada	/cgi-bin/mailgraph2.cgi	2
+Canada	/favicon.ico	2
+Canada	/mailman/admin/ppwc/gateway	2
+Canada	/mailman/options/cnc_notice	2
+Canada	/LateEmail.html	1
+Canada	/RBL.html	1
+Canada	/SpamAssassin.html	1
+Canada	/dccstats/index.html	1
+Canada	/dccstats/stats-hashes.1month.png	1
+Canada	/dccstats/stats-hashes.1week.png	1
+Canada	/dccstats/stats-hashes.1year.png	1
+Canada	/dccstats/stats-spam-ratio.1day.png	1
+Canada	/dccstats/stats-spam-ratio.1month.png	1
+Canada	/dccstats/stats-spam-ratio.1week.png	1
+Canada	/dccstats/stats-spam-ratio.1year.png	1
+Canada	/dccstats/stats-spam.1day.png	1
+Canada	/dccstats/stats-spam.1month.png	1
+Canada	/dccstats/stats-spam.1week.png	1
+Canada	/dccstats/stats-spam.1year.png	1
+Canada	/mailman/admin/ppwc/	1
+Canada	/mailman/admin/ppwc/general	1
+Canada	/mailman/admin/ppwc/logout	1
+Canada	/mailman/admin/ppwc/passwords	1
+Canada	/mailman/listinfo/administration	1
+Canada	/mailman/options/cnc_notice/arobin%40shaw.c	1
+Canada	/pipermail/cnc_notice/2003-December.txt	1
+Canada	/pipermail/cnc_notice/2003-December/000002.html	1
+Canada	/pipermail/cnc_notice/2004-February.txt	1
+Canada	/pipermail/cncce/2004-January/000001.html	1
+Canada	/twiki/	1
+Canada	/twiki/bin/view/Main/KevinWGagel	1
+Canada	/twiki/bin/view/Main/TWikiUsers	1
+Canada	/twiki/bin/view/Main/WebHome	1
+Canada	/twiki/pub/TWiki/TWikiLogos/twikiRobot46x50.gif	1
+Canada	/twiki/view/Main/WebHome	1
+Denmark	/favicon.ico	1
+Denmark	/razor.html	1
+Denmark	/twiki/bin/view/Main/WebHome	1
+Denmark	/twiki/pub/TWiki/TWikiLogos/twikiRobot46x50.gif	1
+Finland	/razor.html	1
+France	/	1
+France	/razor.html	1
+France	/twiki/bin/view/Main/ConfigurationVariables	1
+France	/twiki/bin/view/Main/DCCAndPostFix	1
+France	/twiki/bin/view/Main/SpamAssassin	1
+France	/twiki/bin/view/Main/SpamAssassinAndPostFix	1
+France	/twiki/bin/view/Main/SpamAssassinDeleting	1
+France	/twiki/bin/view/Main/SpamAssassinTaggingOnly	1
+France	/twiki/bin/view/Main/SpamAssassinUsingRazorAndDCC	1
+France	/twiki/bin/view/Main/WebHome	1
+France	/twiki/bin/view/Sandbox/WebHome	1
+France	/twiki/bin/view/TWiki/WebHome	1
+France	/twiki/pub/TWiki/TWikiDocGraphics/tip.gif	1
+France	/twiki/pub/TWiki/TWikiLogos/twikiRobot131x64.gif	1
+France	/twiki/pub/TWiki/TWikiLogos/twikiRobot46x50.gif	1
+France	/twiki/pub/TWiki/TWikiLogos/twikiRobot88x31.gif	1
+Germany	/twiki/bin/view/Main/WebHome	2
+Germany	/SpamAssassin.html	1
+Germany	/favicon.ico	1
+Germany	/twiki/bin/edit/Main/UvscanAndPostFix	1
+Germany	/twiki/bin/view/Main/DCCAndPostFix	1
+Germany	/twiki/bin/view/Main/Postfix	1
+Germany	/twiki/bin/view/Main/SpamAssassinAndPostFix	1
+Germany	/twiki/bin/view/Main/SpamAssassinDeleting	1
+Germany	/twiki/bin/view/Main/SpamAssassinTaggingOnly	1
+Germany	/twiki/bin/view/Main/SpamAssassinUsingRazorAndDCC	1
+Germany	/twiki/pub/TWiki/TWikiDocGraphics/help.gif	1
+Germany	/twiki/pub/TWiki/TWikiLogos/twikiRobot46x50.gif	1
+Intranet	/cgi-bin/mailgraph.cgi/mailgraph_0.png	13
+Intranet	/cgi-bin/mailgraph.cgi/mailgraph_0_err.png	13
+Intranet	/cgi-bin/mailgraph.cgi/mailgraph_1.png	13
+Intranet	/cgi-bin/mailgraph.cgi/mailgraph_1_err.png	13
+Intranet	/cgi-bin/mailgraph.cgi/mailgraph_2.png	13
+Intranet	/cgi-bin/mailgraph.cgi/mailgraph_2_err.png	13
+Intranet	/cgi-bin/mailgraph.cgi/mailgraph_3.png	13
+Intranet	/cgi-bin/mailgraph.cgi/mailgraph_3_err.png	13
+Intranet	/cgi-bin/mailgraph2.cgi	13
+Intranet	/mailman/admin/ppwc/members	8
+Intranet	/dccstats/stats-hashes.1month.png	5
+Intranet	/dccstats/stats-hashes.1week.png	5
+Intranet	/dccstats/stats-hashes.1year.png	5
+Intranet	/dccstats/stats-spam-ratio.1day.png	5
+Intranet	/dccstats/stats-spam-ratio.1month.png	5
+Intranet	/dccstats/stats-spam-ratio.1week.png	5
+Intranet	/dccstats/stats-spam-ratio.1year.png	5
+Intranet	/dccstats/stats-spam.1day.png	5
+Intranet	/dccstats/stats-spam.1month.png	5
+Intranet	/dccstats/stats-spam.1week.png	5
+Intranet	/dccstats/stats-spam.1year.png	5
+Intranet	/twiki/bin/view/Main/WebHome	4
+Intranet	/mailman/admin/ppwc	3
+Intranet	/mailman/admin/ppwc/members/add	2
+Intranet	/	1
+Intranet	/mailman	1
+Intranet	/mailman/admin/ppwc/general	1
+Intranet	/mailman/admin/ppwc/logout	1
+Intranet	/mailman/admin/ppwc/members/list	1
+Intranet	/mailman/listinfo	1
+Intranet	/mailman/listinfo/ppwc	1
+Intranet	/mailman/options/ppwc/ppwctwentynine--at--shaw.com	1
+Intranet	/mailman/options/ppwc/ppwctwentynine@shaw.com	1
+Israel	/	1
+Israel	/SpamAssassin.html	1
+Israel	/dccstats/index.html	1
+Israel	/dccstats/stats-hashes.1month.png	1
+Israel	/dccstats/stats-hashes.1week.png	1
+Israel	/dccstats/stats-hashes.1year.png	1
+Israel	/dccstats/stats-spam-ratio.1day.png	1
+Israel	/dccstats/stats-spam-ratio.1month.png	1
+Israel	/dccstats/stats-spam-ratio.1week.png	1
+Israel	/dccstats/stats-spam-ratio.1year.png	1
+Israel	/dccstats/stats-spam.1day.png	1
+Israel	/dccstats/stats-spam.1month.png	1
+Israel	/dccstats/stats-spam.1week.png	1
+Israel	/dccstats/stats-spam.1year.png	1
+Israel	/razor.html	1
+Israel	/twiki/bin/view/Main/LinksOfUse	1
+Israel	/twiki/bin/view/Main/PostfixCommands	1
+Israel	/twiki/bin/view/Main/WebHome	1
+Israel	/twiki/pub/TWiki/TWikiLogos/twikiRobot46x50.gif	1
+Korea	/icons/PythonPowered.png	1
+Korea	/icons/gnu-head-tiny.jpg	1
+Korea	/icons/mailman.jpg	1
+Korea	/mailman/listinfo/cncce	1
+Los Alamos	/razor.html	1
+Mexico	/razor.html	1
+Netherlands	/	1
+Netherlands	/SpamAssassin.html	1
+Robot	/robots.txt	21
+Robot	/twiki/bin/view/Main/SanJoseOffice	2
+Robot	/	1
+Robot	/twiki/bin/oops/Know/PublicSupported	1
+Robot	/twiki/bin/oops/Know/TopicClassification	1
+Robot	/twiki/bin/oops/Know/WebStatistics	1
+Robot	/twiki/bin/oops/Know/WinDoze95Crash	1
+Robot	/twiki/bin/oops/Main/KevinWGage	1
+Robot	/twiki/bin/oops/Main/Mi	1
+Robot	/twiki/bin/oops/Main/Smtpd_recipient_limit	1
+Robot	/twiki/bin/oops/Main/SpamAssassinTaggingOnly	1
+Robot	/twiki/bin/oops/Main/T	1
+Robot	/twiki/bin/oops/Main/TWi	1
+Robot	/twiki/bin/oops/Main/TWiki	1
+Robot	/twiki/bin/oops/Main/TWikiUsers	1
+Robot	/twiki/bin/oops/Main/ThanadonSomdee	1
+Robot	/twiki/bin/oops/Main/WebStatistics	1
+Robot	/twiki/bin/oops/Sandbox/WebChanges	1
+Robot	/twiki/bin/oops/Sandbox/WebStatistics	1
+Robot	/twiki/bin/oops/TWiki/1000	1
+Robot	/twiki/bin/oops/TWiki/FileAttachment	1
+Robot	/twiki/bin/oops/TWiki/InterWikis	1
+Robot	/twiki/bin/oops/TWiki/InterwikiPlugin	1
+Robot	/twiki/bin/oops/TWiki/JohnAltstadt	1
+Robot	/twiki/bin/oops/TWiki/Mana	1
+Robot	/twiki/bin/oops/TWiki/MoveTopic	1
+Robot	/twiki/bin/oops/TWiki/NicholasLee	1
+Robot	/twiki/bin/oops/TWiki/RegularExp	1
+Robot	/twiki/bin/oops/TWiki/SvenDowideit	1
+Robot	/twiki/bin/oops/TWiki/TWikiAccessControl	1
+Robot	/twiki/bin/oops/TWiki/TWikiPlannedFeatures	1
+Robot	/twiki/bin/oops/TWiki/TWikiVariables	1
+Robot	/twiki/bin/oops/TWiki/TablePlugin	1
+Robot	/twiki/bin/oops/TWiki/TextFormattingRules	1
+Robot	/twiki/bin/oops/TWiki/WebChangesAlert	1
+Robot	/twiki/bin/oops/TWiki/Wik	1
+Robot	/twiki/bin/oops/TWiki/WikiTopic	1
+Robot	/twiki/bin/oops/TWiki/WikiWikiClones	1
+Robot	/twiki/bin/view/Know/WebHome	1
+Robot	/twiki/bin/view/Know/WebStatistics	1
+Robot	/twiki/bin/view/Main/DCCAndPostFix	1
+Robot	/twiki/bin/view/Main/DCCGraphs	1
+Robot	/twiki/bin/view/Main/LondonOffice	1
+Robot	/twiki/bin/view/Main/MikeMannix	1
+Robot	/twiki/bin/view/Main/SimonMudd	1
+Robot	/twiki/bin/view/Main/TWi	1
+Robot	/twiki/bin/view/Main/TWikiAdminGroup	1
+Robot	/twiki/bin/view/Main/VishaalGolam	1
+Robot	/twiki/bin/view/Main/WebNotify	1
+Robot	/twiki/bin/view/Main/WebPreferences	1
+Robot	/twiki/bin/view/Main/WebSearch	1
+Robot	/twiki/bin/view/Main/WebStatistics	1
+Robot	/twiki/bin/view/Main/WebTopicList	1
+Robot	/twiki/bin/view/Sandbox/WebChanges	1
+Robot	/twiki/bin/view/Sandbox/WebHome	1
+Robot	/twiki/bin/view/Sandbox/WebIndex	1
+Robot	/twiki/bin/view/Sandbox/WebPreferences	1
+Robot	/twiki/bin/view/TWiki/2fa	1
+Robot	/twiki/bin/view/TWiki/d43	1
+Spain	/twiki/bin/view/Main/PostSuper	1
+Spain	/twiki/bin/view/Main/PostfixCommands	1
+Spain	/twiki/bin/view/Main/WebHome	1
+Spain	/twiki/pub/TWiki/TWikiLogos/twikiRobot46x50.gif	1
+Taiwan	/M83A	1
+United Kingdom	/favicon.ico	2
+United Kingdom	/razor.html	2
+United Kingdom	/	1
+United Kingdom	/DCC.html	1
+United States	/twiki/bin/view/Main/WebHome	10
+United States	/favicon.ico	8
+United States	/twiki/pub/TWiki/TWikiLogos/twikiRobot46x50.gif	7
+United States	/twiki/bin/view/Main/SpamAssassinAndPostFix	4
+United States	/twiki/bin/view/Main/SpamAssassinDeleting	4
+United States	/twiki/bin/view/Main/SpamAssassinTaggingOnly	4
+United States	/	3
+
+
+$ ./gradlew run --args="Task3 data/access.log data/hostname_country.csv temp3 output3"
+
+/	Canada, France, Intranet, Israel, Netherlands, Robot, United Kingdom, United States, Unknown Location, Wherever You Want to Ship
+/AmavisNew.html	United States, Unknown Location
+/DCC.html	United Kingdom, Unknown Location
+/LateEmail.html	Canada, United States, Unknown Location
+/M83A	Taiwan
+/MSOffice/cltreq.asp	Unknown Location
+/RBL.html	Canada, Unknown Location
+/SpamAssassin.html	Canada, Germany, Israel, Netherlands, United States, Unknown Location
+/_vti_bin/owssvr.dll	Unknown Location
+/antivirus.html	Unknown Location
+/cgi-bin/mailgraph.cgi/mailgraph_0.png	Canada, Intranet, Unknown Location
+/cgi-bin/mailgraph.cgi/mailgraph_0_err.png	Canada, Intranet, Unknown Location
+/cgi-bin/mailgraph.cgi/mailgraph_1.png	Canada, Intranet, Unknown Location
+/cgi-bin/mailgraph.cgi/mailgraph_1_err.png	Canada, Intranet, Unknown Location
+/cgi-bin/mailgraph.cgi/mailgraph_2.png	Canada, Intranet, Unknown Location
+/cgi-bin/mailgraph.cgi/mailgraph_2_err.png	Canada, Intranet, Unknown Location
+/cgi-bin/mailgraph.cgi/mailgraph_3.png	Canada, Intranet, Unknown Location
+/cgi-bin/mailgraph.cgi/mailgraph_3_err.png	Canada, Intranet, Unknown Location
+/cgi-bin/mailgraph2.cgi	Canada, Intranet, Unknown Location
+/clients.html	Unknown Location
+/dccstats/	Unknown Location
+/dccstats/index.html	Canada, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-hashes.1month.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-hashes.1week.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-hashes.1year.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-spam-ratio.1day.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-spam-ratio.1month.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-spam-ratio.1week.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-spam-ratio.1year.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-spam.1day.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-spam.1month.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-spam.1week.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/dccstats/stats-spam.1year.png	Canada, Intranet, Israel, United States, Unknown Location, Wherever You Want to Ship
+/favicon.ico	Canada, Denmark, Germany, United Kingdom, United States, Unknown Location
+/icons/PythonPowered.png	Australia, Canada, Korea, United States, Unknown Location
+/icons/gnu-head-tiny.jpg	Australia, Canada, Korea, United States, Unknown Location
+/icons/mailman.jpg	Australia, Canada, Korea, United States, Unknown Location
+/ie.htm	Canada, Unknown Location
+/images/image004.jpg	Canada, Unknown Location
+/images/image005.jpg	Canada, Unknown Location
+/images/msgops.JPG	Canada, Unknown Location
+/mailman	Australia, Canada, Intranet, United States
+/mailman/admin	Australia, Unknown Location
+/mailman/admin/artsscience	Unknown Location
+/mailman/admin/deans	Unknown Location
+/mailman/admin/educationadmin	Unknown Location
+/mailman/admin/fcd	Unknown Location
+/mailman/admin/gisgrad	Unknown Location
+/mailman/admin/hs_rcafaculty	Unknown Location
+/mailman/admin/hs_support	Unknown Location
+/mailman/admin/jjec	Unknown Location
+/mailman/admin/mlc	Unknown Location
+/mailman/admin/ncbnpfaculty	Unknown Location
+/mailman/admin/ppwc	Canada, Intranet
+/mailman/admin/ppwc/	Canada
+/mailman/admin/ppwc/gateway	Canada
+/mailman/admin/ppwc/general	Canada, Intranet
+/mailman/admin/ppwc/logout	Canada, Intranet
+/mailman/admin/ppwc/members	Canada, Intranet
+/mailman/admin/ppwc/members/add	Intranet
+/mailman/admin/ppwc/members/list	Intranet
